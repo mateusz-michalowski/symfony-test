@@ -1,0 +1,103 @@
+.button {
+	box-shadow: 2px 2px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #9e9e9e 5%, #666666 100%);
+	background-color:#9e9e9e;
+	border-radius:15px;
+	border:1px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:1px 2px 0px #000000;
+    transition-duration: 500ms;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #666666 5%, #9e9e9e 100%);
+	background-color:#666666;
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.button2 {
+	box-shadow: 2px 2px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #c7c7c7 5%, #929292 100%);
+	background-color:#9e9e9e;
+	border-radius:15px;
+	border:1px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:1px 2px 0px #000000;
+    transition-duration: 500ms;
+}
+.button2:hover {
+	background:linear-gradient(to bottom, #929292 5%, #c7c7c7 100%);
+	background-color:#666666;
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+.button2:active {
+	position:relative;
+	top:1px;
+}
+
+.container {
+    height: 500px;
+    width: 1200px;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(126, 126, 126);
+    border-radius:15px;
+    box-shadow: 5px 4px 0px 0px #1c1b18;
+}
+
+.container2 {
+    height: 500px;
+    width: 1200px;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 163, 163);
+    border-radius:15px;
+    box-shadow: 5px 4px 0px 0px #1c1b18;
+}
+
+:root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+    background-color: rgb(41, 41, 41);
+}
+
+.title, .para {
+    color:#ffffff;
+	font-family:Arial;
+    text-shadow:1px 2px 0px #000000;
+    font-weight:bold;
+}
+
+.title2, .para2 {
+    color:#000000;
+	font-family:Arial;
+    text-shadow:1px 2px 0px #696969;
+    font-weight:bold;
+}

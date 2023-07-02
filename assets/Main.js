@@ -1,11 +1,11 @@
 import React from 'react';
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Page1 from "./pages/Page1";
 import Page2 from './pages/Page2';
-import "./styles/app.css"
+import './styles/app.css'
      
 function Main() {
     return (
